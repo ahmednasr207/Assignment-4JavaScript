@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticator</title>
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.5-dist/css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.5-dist/css/bootstrap.min.css">
+</head>
+<body id="Body" class="DarkGradientBackground text-capitalize GradientText">
+    <div class="container pt-5">
+        <h2 class="text-center mb-4">Authenticator</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="EmailInput" placeholder="name@example.com">
+                    <label for="EmailInput">name@example.com</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="PasswordInput" placeholder="Password">
+                    <label for="PasswordInput">Password</label>
+                </div>
+
+                <div class="text-danger w-100 text-center " id="ValidationMessage"></div>
+
+                <div class="row justify-content-center gap-3 mb-5">
+                    <button id="SignInButton" class="btn btn-outline-primary fw-bold mt-4 col-sm-10 col-md-5 col-6">Sign In</button>
+                    <a id="SignUpLink" class="text-decoration-none btn btn-light fw-bold mt-4 col-sm-10 col-md-5 col-6" href="./signup.html">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./bootstrap-5.3.5-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./mini.js"></script>
+</body>
+</html>

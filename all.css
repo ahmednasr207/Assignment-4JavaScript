@@ -1,0 +1,18 @@
+.LiGridLayout {
+    grid-auto-columns: 2fr;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 13px;
+}
+
+.GradientText {
+    background: linear-gradient(45deg, #e18e7c, #42647b);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.DarkGradientBackground {
+    background: linear-gradient(135deg, #232526, #414345);
+}
+
