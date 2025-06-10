@@ -28,7 +28,13 @@
                     <input type="password" oninput="ValidateInput('Password', this)" class="form-control" id="PasswordInput" placeholder="Password">
                     <label for="PasswordInput">Password</label>
                 </div>
-
+<div>
+<ul id="passwordRequirements" class="text-light fst-italic fs-6">
+    <li id="lengthReq"> At least 8 characters</li>
+    <li id="numberReq"> Must include a number</li>
+    <li id="letterReq">Must include a letter</li>
+    <li id="symbolReq">Must include a symbol</li>
+</ul></div>
                 <div class=" w-100 text-center text-danger" id="ValidationMessage"></div>
 
                 <div class="row justify-content-center gap-3 mb-1">
